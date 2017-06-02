@@ -25,6 +25,10 @@ We can't all be the Cheeto in Chief, so we need this function to ensure that we 
 [1] "mexxixi"
 > covfefy("wall")
 [1] "wallala"
+> covfefy("president")
+[1] "preszizi"
+> covfefy("programming")
+[1] "progkaka"
 ```
 
 ## Sentences
