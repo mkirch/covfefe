@@ -1,4 +1,4 @@
-#' @title Covfefe-fy any word.
+#' @title Covfefy any word.
 #'
 #' @description
 #' We can't all be the Cheeto in Chief, so we need this function to ensure
@@ -42,7 +42,7 @@ covfefy <- function(str = "coverage"){
   result
 }
 
-#' @title Covfefe-fy any sentence.
+#' @title Covfefy any sentence.
 #'
 #' @description
 #' Calls \code{covfefy()} and uses rules to decide which, if any, word is
@@ -56,7 +56,7 @@ covfefy <- function(str = "coverage"){
 covfefySentence <- function(sent= paste0("Despite the constant negative",
                                            " press coverage we are going ",
                                            "to Make America Great Again"),
-                              endSentence = FALSE){
+                              endSentence = TRUE){
   wordVec <- strsplit(sent, "[[:space:]]|(?=[,.!?])", perl=TRUE)[[1]]
   punc <- wordVec[length(wordVec)]
   if(length(wordVec) < 10){
@@ -72,15 +72,15 @@ covfefySentence <- function(sent= paste0("Despite the constant negative",
       wordVec[wordIdx] <- covfefy(wordVec[wordIdx])
       wordVec <- wordVec[1:wordIdx]
     }
-    if(endSentence & wordVec[length(wordVec)]!="."){
+    if(endSentence & regexpr("[?.!]",punc)>0){
       return(paste(paste(wordVec,sep=" ",collapse = " "),punc,sep=""))
     } else {
-      return(paste(wordVec))
+      return(paste(wordVec,sep=" ",collapse = " "))
     }
   }
 }
 
-#' @title Covfefe-fy any speech.
+#' @title Covfefy any speech.
 #'
 #' @description
 #' Calls \code{covfefySentences()} and uses rules to decide which,
