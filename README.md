@@ -22,15 +22,15 @@ This function takes a word and performs the following algorithm, as suggested [h
 
 ``` r
 > covfefy("coverage")
-[1] "covfefe"
+"covfefe"
 > covfefy("mexicans")
-[1] "mexxixi"
+"mexxixi"
 > covfefy("wall")
-[1] "wallala"
+"wallala"
 > covfefy("president")
-[1] "preszizi"
+"preszizi"
 > covfefy("programming")
-[1] "progkaka"
+"progkaka"
 ```
 
 ## Sentences
