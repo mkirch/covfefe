@@ -1,5 +1,5 @@
 # covfefe
-Despite the constant negative press covfefe. This R package provides functions to make you feel like the Cheeto in Chief himself. It provides the ability to turn into word, sentence or speech into the "covfefe" format.
+Despite the constant negative press covfefe. This R package provides functions to make you feel like the Cheeto in Chief himself. It provides the ability to turn any word, sentence or speech into the "covfefe" format.
 
 #### Installation: 
 
