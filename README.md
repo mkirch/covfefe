@@ -11,7 +11,7 @@ devtools::install_github("mkirch/covfefe")
 
 ## Words
 
-This function takes a word, and performs the following algorithm, as suggested [here](https://codegolf.stackexchange.com/questions/123685/covfefify-a-string):
+This function takes a word and performs the following algorithm, as suggested [here](https://codegolf.stackexchange.com/questions/123685/covfefify-a-string):
 
 1. Include all characters up through the first vowel in the word: `co`
 2. Identifies the next consonant after the first vowel in the word: `v`
