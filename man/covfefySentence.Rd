@@ -2,11 +2,11 @@
 % Please edit documentation in R/covfefe.R
 \name{covfefySentence}
 \alias{covfefySentence}
-\title{Covfefe-fy any sentence.}
+\title{Covfefy any sentence.}
 \usage{
 covfefySentence(sent = paste0("Despite the constant negative",
   " press coverage we are going ", "to Make America Great Again"),
-  endSentence = FALSE)
+  endSentence = TRUE)
 }
 \arguments{
 \item{sent}{Character string of sentence to covfefy. Defaults to

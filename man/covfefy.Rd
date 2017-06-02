@@ -2,7 +2,7 @@
 % Please edit documentation in R/covfefe.R
 \name{covfefy}
 \alias{covfefy}
-\title{Covfefe-fy any word.}
+\title{Covfefy any word.}
 \usage{
 covfefy(str = "coverage")
 }

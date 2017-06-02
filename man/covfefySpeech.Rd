@@ -2,7 +2,7 @@
 % Please edit documentation in R/covfefe.R
 \name{covfefySpeech}
 \alias{covfefySpeech}
-\title{Covfefe-fy any speech.}
+\title{Covfefy any speech.}
 \usage{
 covfefySpeech(text = system.file("extdata", "inauguration.txt", package =
   "covfefe"), out = "covfefe_inauguration.txt")
