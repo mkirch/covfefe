@@ -1,4 +1,4 @@
-# covfefe
+# covfefe [![Build Status](https://travis-ci.org/mkirch/issueReporter.png)](https://travis-ci.org/mkirch/issueReporter)
 > Despite the constant negative press covfefe
 
 This R package provides functions to make you feel like the Cheeto in Chief himself. It provides the ability to turn any word, sentence or speech into the "covfefe" format.
