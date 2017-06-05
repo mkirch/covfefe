@@ -7,7 +7,8 @@ Maintainer: Michael Kirchner <michael@kirchner.io>
 URL: https://github.com/mkirch/covfefe
 BugReports: https://github.com/mkirch/covfefe/issues
 Description: Converts any word, sentence or speech into Trump's infamous
-  "covfefe" format.
+  "covfefe" format. Reference: <https://www.nytimes.com/2017/05/31/us/politics/covfefe-trump-twitter.html>.
+  Inspiration thanks to: <https://codegolf.stackexchange.com/questions/123685/covfefify-a-string>.
 License: GPL-3 
 LazyData: FALSE
 Imports:
