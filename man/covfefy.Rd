@@ -12,7 +12,9 @@ covfefy(str = "coverage")
 \description{
 We can't all be the Cheeto in Chief, so we need this function to ensure
 that we have the best words. This function takes a word, and performs the
- following algorithm:
+ following algorithm thanks to
+ \href{https://codegolf.stackexchange.com/questions/123685/covfefify-a-string}{
+ this codegolf thread}:
 
 1. Include all characters up through the first vowel in the word. (co)
 
