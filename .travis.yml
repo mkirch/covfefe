@@ -1,5 +1,3 @@
 language: r
 dist: trusty
 cache: packages
-before_install:
-  - tlmgr install index
