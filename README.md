@@ -1,12 +1,14 @@
-# covfefe [![Build Status](https://travis-ci.org/mkirch/covfefe.png)](https://travis-ci.org/mkirch/covfefe)
+# covfefe [![Build Status](https://travis-ci.org/mkirch/covfefe.png)](https://travis-ci.org/mkirch/covfefe)[![CRAN](http://www.r-pkg.org/badges/version/covfefe)](https://cran.r-project.org/package=covfefe)
 > Despite the constant negative press covfefe
 
 This R package provides functions to make you feel like the Cheeto in Chief himself. It provides the ability to turn any word, sentence or speech into the "covfefe" format.
 
 #### Installation: 
 
-``` r
-devtools::install_github("mkirch/covfefe")
+`covfefe` is now [on CRAN](https://cran.r-project.org/web/packages/issueReporter/index.html)! To install the R package, simply:
+
+```r
+install.packages("covfefe")
 ```
 
 ## Words
