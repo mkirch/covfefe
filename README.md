@@ -5,7 +5,7 @@ This R package provides functions to make you feel like the Cheeto in Chief hims
 
 #### Installation: 
 
-`covfefe` is now [on CRAN](https://cran.r-project.org/web/packages/issueReporter/index.html)! To install the R package, simply:
+`covfefe` is now [on CRAN](https://cran.r-project.org/web/packages/covfefe/index.html)! To install the R package, simply:
 
 ```r
 install.packages("covfefe")
