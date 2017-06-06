@@ -18,3 +18,7 @@ the famous tweet.}
 Calls \code{covfefy()} and uses rules to decide which, if any, word is
 covfefefied.
 }
+\examples{
+covfefySentence(paste0("Despite the constant negative press coverage,",
+                       "we are going to Make America Great Again"))
+}

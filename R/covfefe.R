@@ -18,9 +18,13 @@
 #' 5. Combines the two, and repeats. (fefe)
 #'
 #' 6. Puts it all together: covfefe
-
 #' @param str Character string of word to covfefy. Defaults to "coverage".
-
+#' @examples
+#' covfefy("coverage")
+#' covfefy("mexicans")
+#' covfefy("wall")
+#' covfefy("president")
+#' covfefy("programming")
 #' @export
 covfefy <- function(str = "coverage"){
   result = tryCatch({
@@ -53,7 +57,9 @@ covfefy <- function(str = "coverage"){
 #' @param sent Character string of sentence to covfefy. Defaults to
 #' the famous tweet.
 #' @param endSentence Boolean where TRUE forces use of punctuation.
-
+#' @examples
+#' covfefySentence(paste0("Despite the constant negative press coverage,",
+#'                        "we are going to Make America Great Again"))
 #' @export
 covfefySentence <- function(sent= paste0("Despite the constant negative",
                                            " press coverage we are going ",
@@ -91,6 +97,8 @@ covfefySentence <- function(sent= paste0("Despite the constant negative",
 #' @param text Location of input .txt file.
 #' @param out Location of output .txt file.
 #' @import tokenizers
+#' @examples
+#' covfefySpeech()
 #' @export
 covfefySpeech <- function(text = system.file("extdata", "inauguration.txt",
                                                package="covfefe"),

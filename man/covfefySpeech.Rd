@@ -16,3 +16,6 @@ covfefySpeech(text = system.file("extdata", "inauguration.txt", package =
 Calls \code{covfefySentences()} and uses rules to decide which,
 if any, sentences are covfefefied.
 }
+\examples{
+covfefySpeech()
+}

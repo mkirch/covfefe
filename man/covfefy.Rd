@@ -28,3 +28,10 @@ that we have the best words. This function takes a word, and performs the
 
 6. Puts it all together: covfefe
 }
+\examples{
+covfefy("coverage")
+covfefy("mexicans")
+covfefy("wall")
+covfefy("president")
+covfefy("programming")
+}
