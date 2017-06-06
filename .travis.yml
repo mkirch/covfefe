@@ -1,3 +1,4 @@
 language: r
 dist: trusty
 cache: packages
+r_build_args: --no-manual
